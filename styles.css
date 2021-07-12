@@ -132,7 +132,8 @@ body{
     font-family: Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 #timer{
-    font-size:1rem;
+    position: fixed;
+    transform: translateX(-50%);
     left: 12.5%;
     top : 0%;
     background-color:white;
@@ -150,11 +151,7 @@ body{
     color: red;
 }
 #waiting_time{
-    position: fixed;
-    transform: translateX(-50%);
-    left: 50%;
-    top : -40%;
-    font-size: 60px;
+    font-size: 1.5rem;
 }
 #scoreboard{
     position: fixed;
