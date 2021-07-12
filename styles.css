@@ -9,3 +9,6 @@
 #entireContent{
     font-family: Verdana;
 }
+.hidden{
+    display: none;
+}
