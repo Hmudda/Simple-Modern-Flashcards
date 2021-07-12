@@ -279,12 +279,13 @@ function setup() {
 
            //
 
-
+           var questionHeader = document.getElementById("questionHeader");
             if (numberForQuestions == 0) {
 
 
-                var header = "<h1 id='questionHead'>Ornamentation </h1>";
-                $(header).appendTo("body");
+                
+
+                questionHeader.innerHTML = "<h1 id='questionHead'>Ornamentation</h1>"
 
 
 
@@ -436,8 +437,8 @@ function setup() {
 
 
 
-                var header = "<h1 id='questionHead'>Vessel </h1>";
-                $(header).appendTo("body");
+
+                questionHeader.innerHTML = "<h1 id='questionHead'>Vessel</h1>"
 
 
 
@@ -583,9 +584,11 @@ function setup() {
             else if (numberForQuestions == 2) {
 
 
+                questionHeader.innerHTML = "<h1 id='questionHead'>SKU</h1>"
 
-                var header = "<h1 id='questionHead'>SKU </h1>";
-                $(header).appendTo("body");
+              //  var header = "<h1 id='questionHead'>SKU </h1>";
+//
+              //  $(header).appendTo("#questionHead");
 
 
 
