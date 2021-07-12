@@ -108,6 +108,8 @@ body{
     z-index: 4;
 }
 #question-container{
+    display: flex;
+    margin-top: 10px;
     position: fixed;
     width: 100%;
     transform: translateX(-50%);
@@ -130,8 +132,7 @@ body{
     font-family: Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 #timer{
-    position: fixed;
-    transform: translateX(-50%);
+    font-size:1rem;
     left: 12.5%;
     top : 0%;
     background-color:white;
@@ -166,15 +167,13 @@ body{
     font-weight: bold;
     font-family: Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-align: center;
-    font-size: 25px;
     width: 25%;
     height: 16%;
     font-weight: bold;
 
 }
 #score{
-    position:fixed;
-    transform: translateX(-50%);
+    font-size: 1rem;
     font-weight: bold;
     font-family: Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
     width: 100%;
