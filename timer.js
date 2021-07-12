@@ -107,6 +107,8 @@ function captureInfo() {
   var initialsValue = formatEntry(initialsVal, theScore);
   initialsValue = JSON.stringify(initialsValue);
   if (initialsVal !== "") {
+    var theButton = document.getElementById("submitButton");
+    theButton.remove();
 
     //saveScore(initialsValue);
 
@@ -118,7 +120,6 @@ function captureInfo() {
     }).then(function (){
         runScoreboard();
     })
-  
   }
 
 }
