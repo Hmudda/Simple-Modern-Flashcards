@@ -137,7 +137,7 @@ function GameTimer() {
     remainingSeconds = "0" + remainingSeconds;
   }
 
-  document.getElementById('waiting_time').innerHTML = minutes + ":" + remainingSeconds;
+  document.getElementById('timer').innerHTML ="<p id='waiting_time'>" + minutes + ":" + remainingSeconds + "</p>";
   if (seconds == 0) {
     remainingSeconds = 0;
     setTimeCheck(0);
