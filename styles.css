@@ -15,6 +15,12 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
+    border: 1px solid black;
+
+}
+#waiting_time{
+    margin-block: auto;
+    line-height: 2em;
 }
 
 .logo{
@@ -28,4 +34,10 @@
 }
 #score{
     margin: auto;
+}
+
+
+.buttonsClass{
+    font-family: Verdana;
+    color: blue;
 }
