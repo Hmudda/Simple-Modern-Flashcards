@@ -14,9 +14,12 @@
 #timer #waiting_time{
     justify-content: center;
     display: flex;
-    flex-direction: column;
+    padding: 5px;
     border: 1px solid black;
 
+}
+#score{
+    flex-direction: column;
 }
 #waiting_time{
     margin-block: auto;
