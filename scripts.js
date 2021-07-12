@@ -65,6 +65,21 @@ function startTimer() {
     countdownTimer = setInterval(GameTimer, 1000);
 }
 
+
+window.onload = function(){
+    
+    productArr = [];
+    $.getJSON('data.json', function (data) {
+
+        $.each(data.product, function (i, f) {
+            productArr.push(f);
+        });
+
+    });
+
+        //pull info from database into array
+}
+
 function startGame() {
 
 
@@ -85,16 +100,9 @@ function startGame() {
 
     //use this for tracking what question you are on
     counter = counter + 1;
-    productArr = [];
 
-    //pull info from database into array
-    $.getJSON('data.json', function (data) {
 
-        $.each(data.product, function (i, f) {
-            productArr.push(f);
-        });
 
-    });
 
     setTimeout(doSetupWithDelay, 100);
 }
