@@ -2,7 +2,7 @@
 
 var isWaiting = false;
 var isRunning = false;
-var seconds = 60;
+var seconds = 600000;
 var countdownTimer;
 var finalCountdown = true;
 var scoreArrTimer = [];
