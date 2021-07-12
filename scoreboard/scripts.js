@@ -86,6 +86,6 @@ function saveScore(entry){
 
 
 function tryAgain(){
-    window.location.href = "../main.html";
+    window.location.href = "../index.html";
 }
 
