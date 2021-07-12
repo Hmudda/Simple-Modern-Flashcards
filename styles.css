@@ -74,7 +74,8 @@ body{
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 .buttonsClass,
-#start{
+#start,
+#submitButton{
     font-family: Verdana;
     background-color:rgb(0, 0, 0);
     outline: 1px solid black;
@@ -93,3 +94,17 @@ body{
 #timer{
     color: red;
 }
+
+#scoreSubtraction{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 2em;
+}
+#enterNameForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

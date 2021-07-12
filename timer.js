@@ -146,27 +146,8 @@ function GameTimer() {
 
     document.getElementById("theForm").className = "unhidden";
 
-
-    var imgBorder = document.getElementById("imageBorder");
-    var button1 = document.getElementById("incorrectButton1");
-    var button2 = document.getElementById("incorrectButton2");
-    var button3 = document.getElementById("correctButton");
-    var prodImage = document.getElementById("prodImage");
-    var questionHeader = document.getElementById("questionHead");
-    var skipButton = document.getElementById("skip");
-    try {
-
-      button1.remove();
-      button2.remove();
-      button3.remove();
-      skipButton.remove();
-      prodImage.remove();
-      questionHeader.remove();
-      imgBorder.remove();
-    }
-    catch { }
-    //finally{
-
+    var quizContent = document.getElementById("quizContent");
+    quizContent.remove();
 
 
 

@@ -33,22 +33,25 @@
       <button type="button" id="start" class="buttonClass" onclick="startGame();startTimer()" value="run external javascript">Start</button>
     </div>
 
-    <div id="quizContent">
+    
+    <div id="theForm" class="hidden">
+      <div id="scoreSubtraction">
+        <p id="scoreSubtractionText"></p>
+      </p>
+    </div>
+    <form id='enterNameForm'><label id="labelForName" for='fname'>Initials:</label><br>
+      <input type='text' id='initials' maxlength='3' name='fname' /></input><br>
+      <button id='submitButton' type='button' onclick="enterName()">Enter</button>
+    </form>
+  </div>
+  
+  <div id="quizContent">
       <div id="img-container"> </div>
       
       
       
       
-      <div id="theForm" class="hidden">
-        <div id="scoreSubtraction">
-          <p id="scoreSubtractionText"></p>
-        </p>
-      </div>
-      <form id='enterNameForm'><label id="labelForName" for='fname'>Initials:</label><br>
-        <input type='text' id='initials' maxlength='3' name='fname' /></input><br>
-        <button id='submitButton' type='button' onclick="enterName()">Enter</button>
-      </form>
-    </div>
+
     
     <div id="questionHeader"></div>
     
