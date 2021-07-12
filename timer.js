@@ -161,6 +161,20 @@ function GameTimer() {
     setTheUserScore(finalScore);
 
 
+    $(document).keyup(function(event) {
+      if (event.which === 13 && initialsVal !== "") {
+          enterName();
+      }
+  });
+
+
+    //var input = document.getElementById("submitButton");
+
+ //form.addEventListener('submit', enterName);
+///
+   /// document.getElementById("submitButton")
+///
+
   }
   else {
     //this makes sure you cant jump out of the time limit

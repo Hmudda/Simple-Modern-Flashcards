@@ -39,10 +39,12 @@
         <p id="scoreSubtractionText"></p>
       </p>
     </div>
-    <form id='enterNameForm'><label id="labelForName" for='fname'>Initials:</label><br>
-      <input type='text' id='initials' maxlength='3' name='fname' /></input><br>
-      <button id='submitButton' type='button' onclick="enterName()">Enter</button>
-    </form>
+
+    <div id='enterNameForm'>
+        <input type='text' id='initials' maxlength='3' name='fname' /><br>
+        <input type='submit' class='hidden'>
+        <button id='submitButton' type='submit' onclick='enterName()'>Enter</button>
+      </div>
   </div>
   
   <div id="quizContent">
