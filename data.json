@@ -953,13 +953,6 @@
             "vessel": "Kona"
         },
         {
-            "id": "136",
-            "SKU": "KNAC-16-GEO",
-            "paint": "None",
-            "ornamentation": "Ocean Geode",
-            "vessel": "Kona"
-        },
-        {
             "id": "137",
             "SKU": "KNAC-24-CM",
             "paint": "None",
@@ -1007,188 +1000,6 @@
             "paint": "Matte Powder Coat",
             "ornamentation": "Moonlight",
             "vessel": "Kona"
-        },
-        {
-            "id": "144",
-            "SKU": "RGR-SLM-BR",
-            "paint": "Shiny Paint",
-            "ornamentation": "Blush",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "145",
-            "SKU": "RGR-SLM-CB",
-            "paint": "Shiny Paint",
-            "ornamentation": "Caribbean",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "146",
-            "SKU": "RGR-SLM-MB",
-            "paint": "Shiny Paint",
-            "ornamentation": "Midnight Black",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "147",
-            "SKU": "RGR-SLM-NV",
-            "paint": "Shiny Paint",
-            "ornamentation": "Deep Ocean",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "148",
-            "SKU": "RGR-SLM-PRM",
-            "paint": "None",
-            "ornamentation": "Prism",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "149",
-            "SKU": "RGR-SLM-RSG",
-            "paint": "Shiny Paint",
-            "ornamentation": "Rose Gold",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "150",
-            "SKU": "RGR-STN-BR",
-            "paint": "Shiny Paint",
-            "ornamentation": "Blush",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "151",
-            "SKU": "RGR-STN-MB",
-            "paint": "Shiny Paint",
-            "ornamentation": "Midnight Black",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "152",
-            "SKU": "RGR-STN-NV",
-            "paint": "Shiny Paint",
-            "ornamentation": "Deep Ocean",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "153",
-            "SKU": "RGR-STN-PRM",
-            "paint": "None",
-            "ornamentation": "Prism",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "154",
-            "SKU": "RGRC-SLM-ALP",
-            "paint": "None",
-            "ornamentation": "Alpenglow",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "155",
-            "SKU": "RGRC-SLM-CM",
-            "paint": "None",
-            "ornamentation": "Carrara Marble",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "156",
-            "SKU": "RGRC-SLM-DRM",
-            "paint": "None",
-            "ornamentation": "Dreamcicle",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "157",
-            "SKU": "RGRC-SLM-GEO",
-            "paint": "None",
-            "ornamentation": "Ocean Geode",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "158",
-            "SKU": "RGRC-SLM-NEB",
-            "paint": "None",
-            "ornamentation": "Nebula",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "159",
-            "SKU": "RGRC-SLM-OPLT",
-            "paint": "None",
-            "ornamentation": "Opal Tide",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "160",
-            "SKU": "RGRC-SLM-OQ",
-            "paint": "None",
-            "ornamentation": "Ocean Quartz",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "161",
-            "SKU": "RGRC-STN-CM",
-            "paint": "None",
-            "ornamentation": "Carrara Marble",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "162",
-            "SKU": "RGRC-STN-GEO",
-            "paint": "None",
-            "ornamentation": "Ocean Geode",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "163",
-            "SKU": "RGRC-STN-OPLT",
-            "paint": "None",
-            "ornamentation": "Opal Tide",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "164",
-            "SKU": "RGRF-SLM-SB",
-            "paint": "Shiny Paint",
-            "ornamentation": "Sorbet",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "165",
-            "SKU": "RGRF-SLM-ST",
-            "paint": "Shiny Paint",
-            "ornamentation": "Sweet Taffy",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "166",
-            "SKU": "RGRS-SLM-ARA",
-            "paint": "Rainbow Paint",
-            "ornamentation": "Aurora",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "167",
-            "SKU": "RGRS-SLM-RQ",
-            "paint": "Rainbow Paint",
-            "ornamentation": "Rose Quartz",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "168",
-            "SKU": "RGRS-SLM-SLN",
-            "paint": "Rainbow Paint",
-            "ornamentation": "Selenite",
-            "vessel": "Ranger"
-        },
-        {
-            "id": "169",
-            "SKU": "RGRS-STN-ARA",
-            "paint": "Rainbow Paint",
-            "ornamentation": "Aurora",
-            "vessel": "Ranger"
         },
         {
             "id": "170",
@@ -1436,27 +1247,6 @@
             "vessel": "Classic"
         },
         {
-            "id": "205",
-            "SKU": "SKS-S-12-D-CRS-KCW",
-            "paint": "None",
-            "ornamentation": "Cars Ka-chow",
-            "vessel": "Summit"
-        },
-        {
-            "id": "206",
-            "SKU": "SKS-S-12-D-FZN-GO",
-            "paint": "None",
-            "ornamentation": "Frozen Elsa's Snowflake",
-            "vessel": "Summit"
-        },
-        {
-            "id": "207",
-            "SKU": "SKS-S-12-D-FZN-WH",
-            "paint": "None",
-            "ornamentation": "Frozen I Like Warm Hugs",
-            "vessel": "Summit"
-        },
-        {
             "id": "208",
             "SKU": "SKS-S-12-D-LK-FRD",
             "paint": "None",
@@ -1468,13 +1258,6 @@
             "SKU": "SKS-S-12-D-MKM-RTO",
             "paint": "None",
             "ornamentation": "Mickey Mouse Retro",
-            "vessel": "Summit"
-        },
-        {
-            "id": "210",
-            "SKU": "SKS-S-12-D-MNC-MSC",
-            "paint": "None",
-            "ornamentation": "Monsters Inc",
             "vessel": "Summit"
         },
         {
@@ -1496,13 +1279,6 @@
             "SKU": "SKS-S-12-D-NBC",
             "paint": "None",
             "ornamentation": "Nightmare Before Christmas",
-            "vessel": "Summit"
-        },
-        {
-            "id": "214",
-            "SKU": "SKS-S-12-D-PRN-RYB",
-            "paint": "None",
-            "ornamentation": "Princesses Royal Beauty",
             "vessel": "Summit"
         },
         {
@@ -1863,13 +1639,6 @@
             "vessel": "Summit"
         },
         {
-            "id": "266",
-            "SKU": "SM-S-10-V-PAW-ADV",
-            "paint": "Shiny Paint",
-            "ornamentation": "Paw Patrol Adventures",
-            "vessel": "Summit"
-        },
-        {
             "id": "267",
             "SKU": "SM-S-10-V-PAW-CHS",
             "paint": "Shiny Paint",
@@ -1902,13 +1671,6 @@
             "SKU": "SM-S-10-V-SPB-BBL",
             "paint": "Shiny Paint",
             "ornamentation": "SpongeBob Bubbles",
-            "vessel": "Summit"
-        },
-        {
-            "id": "272",
-            "SKU": "SM-S-10-V-SPB-BTM",
-            "paint": "Shiny Paint",
-            "ornamentation": "SpongeBob Bikini Bottom",
             "vessel": "Summit"
         },
         {
@@ -2192,13 +1954,6 @@
             "vessel": "Summit"
         },
         {
-            "id": "313",
-            "SKU": "SM-S-14-V-PAW-ADV",
-            "paint": "Shiny Paint",
-            "ornamentation": "Paw Patrol Adventures",
-            "vessel": "Summit"
-        },
-        {
             "id": "314",
             "SKU": "SM-S-14-V-PAW-CHS",
             "paint": "Shiny Paint",
@@ -2231,13 +1986,6 @@
             "SKU": "SM-S-14-V-SPB-BBL",
             "paint": "Shiny Paint",
             "ornamentation": "SpongeBob Bubbles",
-            "vessel": "Summit"
-        },
-        {
-            "id": "319",
-            "SKU": "SM-S-14-V-SPB-BTM",
-            "paint": "Shiny Paint",
-            "ornamentation": "SpongeBob Bikini Bottom",
             "vessel": "Summit"
         },
         {
@@ -2829,13 +2577,6 @@
             "vessel": "Summit"
         },
         {
-            "id": "404",
-            "SKU": "SM-S-84-NV-1",
-            "paint": "Matte Powder Coat",
-            "ornamentation": "Deep Ocean",
-            "vessel": "Summit"
-        },
-        {
             "id": "405",
             "SKU": "SM-S-84-WW",
             "paint": "Matte Powder Coat",
@@ -3004,13 +2745,6 @@
             "vessel": "Summit"
         },
         {
-            "id": "429",
-            "SKU": "SMC-S-14-NEB",
-            "paint": "None",
-            "ornamentation": "Nebula",
-            "vessel": "Summit"
-        },
-        {
             "id": "430",
             "SKU": "SMC-S-14-PLP",
             "paint": "Shiny Paint",
@@ -3074,24 +2808,10 @@
             "vessel": "Summit"
         },
         {
-            "id": "439",
-            "SKU": "SMC-S-18-ALP",
-            "paint": "None",
-            "ornamentation": "Alpenglow",
-            "vessel": "Summit"
-        },
-        {
             "id": "440",
             "SKU": "SMC-S-18-CM-1",
             "paint": "None",
             "ornamentation": "Carrara Marble",
-            "vessel": "Summit"
-        },
-        {
-            "id": "441",
-            "SKU": "SMC-S-18-DNR",
-            "paint": "Shiny Paint",
-            "ornamentation": "Dinosaur Roar",
             "vessel": "Summit"
         },
         {
@@ -3130,24 +2850,10 @@
             "vessel": "Summit"
         },
         {
-            "id": "447",
-            "SKU": "SMC-S-18-NEB",
-            "paint": "None",
-            "ornamentation": "Nebula",
-            "vessel": "Summit"
-        },
-        {
             "id": "448",
             "SKU": "SMC-S-18-PLP",
             "paint": "Shiny Paint",
             "ornamentation": "Polka Play",
-            "vessel": "Summit"
-        },
-        {
-            "id": "449",
-            "SKU": "SMC-S-18-SBT",
-            "paint": "Shiny Paint",
-            "ornamentation": "Shark Bite",
             "vessel": "Summit"
         },
         {
@@ -3186,13 +2892,6 @@
             "vessel": "Summit"
         },
         {
-            "id": "455",
-            "SKU": "SMC-S-22-ASK",
-            "paint": "None",
-            "ornamentation": "Arctic Sky",
-            "vessel": "Summit"
-        },
-        {
             "id": "456",
             "SKU": "SMC-S-22-CM",
             "paint": "None",
@@ -3228,31 +2927,10 @@
             "vessel": "Summit"
         },
         {
-            "id": "461",
-            "SKU": "SMC-S-22-PFL",
-            "paint": "None",
-            "ornamentation": "Pretty in Floral",
-            "vessel": "Summit"
-        },
-        {
-            "id": "462",
-            "SKU": "SMC-S-22-TDL",
-            "paint": "None",
-            "ornamentation": "Tidal Wave",
-            "vessel": "Summit"
-        },
-        {
             "id": "463",
             "SKU": "SMC-S-32-ALP",
             "paint": "None",
             "ornamentation": "Alpenglow",
-            "vessel": "Summit"
-        },
-        {
-            "id": "464",
-            "SKU": "SMC-S-32-ASK",
-            "paint": "None",
-            "ornamentation": "Arctic Sky",
             "vessel": "Summit"
         },
         {
@@ -3291,38 +2969,10 @@
             "vessel": "Summit"
         },
         {
-            "id": "470",
-            "SKU": "SMC-S-32-PFL",
-            "paint": "None",
-            "ornamentation": "Pretty in Floral",
-            "vessel": "Summit"
-        },
-        {
-            "id": "471",
-            "SKU": "SMC-S-32-TDL",
-            "paint": "None",
-            "ornamentation": "Tidal Wave",
-            "vessel": "Summit"
-        },
-        {
             "id": "472",
             "SKU": "SMC-S-40-CM",
             "paint": "None",
             "ornamentation": "Carrara Marble",
-            "vessel": "Summit"
-        },
-        {
-            "id": "473",
-            "SKU": "SMC-S-40-GEO",
-            "paint": "None",
-            "ornamentation": "Ocean Geode",
-            "vessel": "Summit"
-        },
-        {
-            "id": "474",
-            "SKU": "SMC-S-40-NEB",
-            "paint": "None",
-            "ornamentation": "Nebula",
             "vessel": "Summit"
         },
         {
@@ -3337,20 +2987,6 @@
             "SKU": "SMC-S-84-CM",
             "paint": "None",
             "ornamentation": "Carrara Marble",
-            "vessel": "Summit"
-        },
-        {
-            "id": "477",
-            "SKU": "SMC-SFC-32-CM",
-            "paint": "None",
-            "ornamentation": "Carrara Marble",
-            "vessel": "Summit"
-        },
-        {
-            "id": "478",
-            "SKU": "SMC-SFC-32-GEO",
-            "paint": "None",
-            "ornamentation": "Ocean Geode",
             "vessel": "Summit"
         },
         {
@@ -3473,20 +3109,6 @@
             "vessel": "Summit"
         },
         {
-            "id": "496",
-            "SKU": "SMF-S-18-PD-1",
-            "paint": "Matte Powder Coat",
-            "ornamentation": "Pacific Dream",
-            "vessel": "Summit"
-        },
-        {
-            "id": "497",
-            "SKU": "SMF-S-18-SB-1",
-            "paint": "Matte Powder Coat",
-            "ornamentation": "Sorbet",
-            "vessel": "Summit"
-        },
-        {
             "id": "498",
             "SKU": "SMF-S-18-ST",
             "paint": "Matte Powder Coat",
@@ -3508,24 +3130,10 @@
             "vessel": "Summit"
         },
         {
-            "id": "501",
-            "SKU": "SMF-S-22-PD-1",
-            "paint": "Matte Powder Coat",
-            "ornamentation": "Pacific Dream",
-            "vessel": "Summit"
-        },
-        {
             "id": "502",
             "SKU": "SMF-S-22-SB",
             "paint": "Matte Powder Coat",
             "ornamentation": "Sorbet",
-            "vessel": "Summit"
-        },
-        {
-            "id": "503",
-            "SKU": "SMF-S-22-ST-1",
-            "paint": "Matte Powder Coat",
-            "ornamentation": "Sweet Taffy",
             "vessel": "Summit"
         },
         {
@@ -3603,13 +3211,6 @@
             "SKU": "SMF-S-64-PD",
             "paint": "Matte Powder Coat",
             "ornamentation": "Pacific Dream",
-            "vessel": "Summit"
-        },
-        {
-            "id": "515",
-            "SKU": "SMF-S-64-SB-2",
-            "paint": "Matte Powder Coat",
-            "ornamentation": "Sorbet",
             "vessel": "Summit"
         },
         {

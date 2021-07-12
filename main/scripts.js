@@ -6,7 +6,7 @@ var counter = 0;
 var wrongCounter = 0;
 var timeCheck = 1;
 var theUserScore = 0;
-var num = 0;
+var num;
 var numberForButton = 0;
 var newRand = 0;
 var numberForQuestions = 0;
@@ -162,7 +162,6 @@ function nextQuestion() {
     document.getElementById('score').innerHTML = "Correct: " + points +"<br>" +"<div id='red'>"+ "Wrong: " + wrongCounter +"</div>";
     setTheUserScore(points);
 
-
     if (getTimeCheck() == 1) {
 
 
@@ -211,10 +210,8 @@ function wrongQuestion() {
 
 }
 
-
-
-
 function setup() {
+
 
     
 
@@ -228,20 +225,32 @@ function setup() {
 
 
 
- //get a random number
+    //get a random number
     num = mixRandom();
-     if (num == total){
-         num = mixRandom();
+    if (num == total){
+        num = mixRandom();
     }
 
-  $("#img-container").append("<img id ='prodImage' width ='94px;' height='auto' src=\"https://simplemodern.s3.us-east-2.amazonaws.com/product-quiz/" + productArr[num].SKU + ".jpg\">")
-  var newImage = document.getElementById("prodImage");
-  newImage.onload = function(){
-  }
-  newImage.onerror = function(){
-      console.log("This has no image: ", num);
-  }
 
+        //if the image can't be found, try a new random number. If it can't be found again, set it to 3.
+    
+        $("#img-container").append("<img id ='prodImage' width ='94px;' height='auto' src=\"https://simplemodern.s3.us-east-2.amazonaws.com/product-quiz/" + productArr[num].SKU + ".jpg\">")
+        var newImage = document.getElementById("prodImage");
+        newImage.onload = function(){
+        }
+        newImage.onerror = function(){
+            newImage = document.getElementById("prodImage");
+            newImage.remove();
+            num = mixRandom();
+            $("#img-container").append("<img id ='prodImage' width ='94px' height='auto' src=\"https://simplemodern.s3.us-east-2.amazonaws.com/product-quiz/" + productArr[num].SKU + ".jpg\">")
+            newImage = document.getElementById("prodImage");
+            newImage.onerror = function(){
+                newImage = document.getElementById("prodImage");
+                newImage.remove();
+                num = 3;
+                $("#img-container").append("<img id ='prodImage' width ='94px' height='auto' src=\"https://simplemodern.s3.us-east-2.amazonaws.com/product-quiz/" + productArr[num].SKU + ".jpg\">")
+            }
+        }
 
             var incorrectButton = "strange";
 
@@ -261,7 +270,6 @@ function setup() {
             var numberForQuestions = getRandomArbitrary(0, 1);
             numberForQuestions = numberForQuestions * 2;
             numberForQuestions = Math.round(numberForQuestions);
-
 
 
             //do ornamentation
@@ -729,17 +737,6 @@ function setup() {
 
                 
             }
-
-
-            //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-            //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-            //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-            //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-            //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-            //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-            //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-            //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-  
 
 }
 
