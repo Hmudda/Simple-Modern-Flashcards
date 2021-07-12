@@ -1,0 +1,50 @@
+<html>
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+
+
+<script type="text/javascript" src="timer.js"></script>
+<link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+
+
+<body>
+
+
+  <div id="entireContent">
+    
+    <img class="logo" src="images/sm-small.png">
+    <div id="timer" class="hidden"><p id="waiting_time"></p></div>
+    <div id="scoreboard" class="hidden"><div id="score"></div></div>
+<div id ="imageBorder"></div>
+<div id="img-container">
+</div>
+
+
+<div id="theForm" class="hidden">
+  <div id="scoreSubtraction"><p id ="scoreSubtractionText"></p></p></div>
+<form id = 'enterNameForm'><label id ="labelForName" for='fname'>Initials:</label><br>
+<input type='text' id='initials' maxlength='3' name='fname'/></input><br>
+<button id='submitButton' type='button' onclick="enterName()">Enter</button></form>
+</div>
+
+
+<div id="question-container">
+
+</div>
+<button type="button" id ="skip" class="hidden" onclick="doQuestionNoPoints()" value="run external javascript">Skip</button>
+<button type="button" id ="start" onclick="startGame();startTimer()" value="run external javascript">Start</button>
+
+</div>
+
+<div class="wrapper">
+
+</div>
+
+
+</body>
+<script type="text/javascript" src="scripts.js"></script>
+</html>

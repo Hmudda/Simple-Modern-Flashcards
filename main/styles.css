@@ -1,0 +1,359 @@
+@font-face {
+    font-family: 'PressStart';
+    src: url('Fonts/PressStart2P-Regular.ttf');
+}
+
+body{
+    background-color: rgb(73, 73, 73);
+    background-image: url('images/background.jpg1339522396');
+    background-size: contain;
+}
+
+.logo{
+    position: fixed;
+    transform: translateX(-50%);
+    top: 0%;
+    left: 50%;
+    width: 30%;
+    z-index: 1;
+
+}
+#entireContent{
+    position: fixed;
+    transform: translateX(-50%);
+    background: rgba(218, 218, 218, 0.74);
+    background-size: 93%;
+    outline: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 40%;
+    height: 95%;
+    top: 3%;
+    left: 50%;
+    z-index: 1;
+}
+#start{
+    position: fixed;
+    font-family: Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    transform: translateX(-50%);
+    top: 85%;
+    left: 50%;
+    z-index: 2;
+    background-color:black;
+    outline: 1px solid black;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 85%;
+}
+#skip{
+    display: none;
+    position: fixed;
+    font-family: Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    transform: translateX(-50%);
+    top: 12%;
+    left: 50%;
+    z-index: 2;
+    background-color:black;
+    outline: 1px solid black;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 85%;
+}
+#questionHead{
+    position: fixed;
+    color: white;
+    font-size:x-large;
+    transform: translateX(-50%);
+    font-family: Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    left: 50%;
+    /*top: 12.64%;*/
+    top: 75%;
+    z-index: 2;
+    background-color:rgb(0, 0, 0);
+    outline: 1px solid black;
+    padding: 15px 15px;
+    width: 190px;
+    text-align: center;
+}
+#imageBorder{
+    background-color: white;
+    width: 220px;
+    height: 400px;
+    outline: 3px solid black;
+    position: fixed;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    left: 50%;
+    top: 20%;
+    z-index: 3;
+}
+#img-container{
+    position: fixed;
+    transform: translateX(-50%);
+    top: 25%;
+    left: 50%;
+    z-index: 4;
+}
+#question-container{
+    position: fixed;
+    width: 100%;
+    transform: translateX(-50%);
+    top: 88%;
+    left: 50%;
+    z-index: 2;
+}
+.buttonsClass{
+    background-color:rgb(0, 0, 0);
+    outline: 1px solid black;
+    color: white;
+    padding: 15px 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 30%;
+    font-weight: bold;
+    font-family: Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#timer{
+    position: fixed;
+    transform: translateX(-50%);
+    left: 12.5%;
+    top : 0%;
+    background-color:white;
+    outline: 1px solid black;
+    color: rgb(255, 47, 0);
+    font-weight: bold;
+    font-family: Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-family: PressStart;*/
+    text-align: center;
+    width: 25%;
+    height: 16%;
+
+}
+#red{
+    color: red;
+}
+#waiting_time{
+    position: fixed;
+    transform: translateX(-50%);
+    left: 50%;
+    top : -40%;
+    font-size: 60px;
+}
+#scoreboard{
+    position: fixed;
+    transform: translateX(-50%);
+    left: 87.5%;
+    top : 0%;
+    background-color:rgb(250, 250, 250);
+    outline: 1px solid black;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    font-size: 25px;
+    width: 25%;
+    height: 16%;
+    font-weight: bold;
+
+}
+#score{
+    position:fixed;
+    transform: translateX(-50%);
+    font-weight: bold;
+    font-family: Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    width: 100%;
+    left: 50%;
+    top : 15%;
+}
+#submitButton{
+    position:fixed;
+    transform: translateX(-50%);
+    font-family: Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color:rgb(0, 0, 0);
+    outline: 1px solid black;
+    color: white;
+    padding: 15px 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 35%;
+    font-weight: bold;
+    top: 120%;
+    left: 47%;
+}
+#submitButton:hover{
+    background-color:rgb(255, 255, 255);
+    color: black;
+}
+
+#labelForName{
+    font-family: Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position:fixed;
+    transform: translateX(-50%);
+    top: 10%;
+}
+
+
+
+
+
+span {
+    font-size: 30px; background-color: #eee;
+    margin-left: 2px;
+    padding: 3px;
+    cursor: default; -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+button {
+    vertical-align: top;
+}
+p {
+    font-size: 25px;
+}
+
+
+
+
+
+/*ADDING BUTTON ANIMATIONS AND SUCH*/
+
+#start:hover{
+    outline: 1px solid white;
+}
+#incorrectButton1:hover{
+    outline: 1px solid white;
+}
+#incorrectButton2:hover{
+    outline: 1px solid white;
+    
+}
+#correctButton:hover{
+    outline: 1px solid white;
+    
+}
+
+
+#incorrectButton1:active{
+    transform: translateY(4px);
+}
+#incorrectButton2:active{
+    transform: translateY(4px);
+   
+}
+#correctButton:active{
+    transform: translateY(4px);  
+}
+
+
+
+#x{
+    background-color: red;
+    width: 220px;
+    height: 400px;
+    outline: 3px solid black;
+    position: fixed;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    left: 50%;
+    top: 20%;
+    z-index: 3;
+}
+#mainScoreBoard{
+    background-color: white;
+    width: 220px;
+    height: 400px;
+    outline: 3px solid black;
+    position: fixed;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    left: 50%;
+    top: 20%;
+    z-index: 3;
+}
+#scoreSubtraction{
+    text-align: center;
+    font-family: Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    position: fixed;
+    transform: translateX(-50%);
+    top: 25%;
+    left: 50%;
+    z-index: 2;
+    background-color:rgba(105, 105, 105, 0.699);
+    outline: 1px solid black;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    width: 50%;
+    height: 8%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 85%;
+}
+#enterNameForm{
+    
+    text-align: center;
+    font-family: Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    position: fixed;
+    transform: translateX(-50%);
+    top: 40%;
+    left: 50%;
+    z-index: 2;
+    background-color:rgba(105, 105, 105, 0.699);
+    outline: 1px solid black;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 85%;
+}
+input[type=text]{
+    font-family: Arial;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.822);
+    color:black;
+    width: 25%;
+}
+input[type=text]:focus {
+    font-family: Arial;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255, 0.822);
+    color:black;
+    width: 25%;
+  }
+
+
+.hidden{
+    display: none;
+}
+
+.unhiddern{
+    display: block;
+}
