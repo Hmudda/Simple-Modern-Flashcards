@@ -8,7 +8,7 @@
 }
 #scoreboard,
 #timer{
-    width: 100px;
+    width: 125px;
 }
 #scoreboard #score,
 #timer #waiting_time{
@@ -38,8 +38,25 @@
 #score{
     margin: auto;
 }
-
-
+#startButtonDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#quizContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#question-container button{
+    margin: 10px;
+}
+#img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 500px;
+}
 .buttonsClass{
     font-family: Verdana;
     color: blue;

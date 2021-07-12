@@ -70,7 +70,6 @@ function startGame() {
 
     document.getElementById("timer").className = "unhidden";
     document.getElementById("scoreboard").className = "unhidden";
-    document.getElementById("skip").className = "unhidden";
     document.getElementById('score').innerHTML = "Correct: " + points +"<br>" +"<div id='red'>"+ "Wrong: " + wrongCounter +"</div>";
     
 
@@ -234,7 +233,7 @@ function setup() {
          num = mixRandom();
     }
 
-  $("#img-container").append("<img id ='prodImage' width ='94px;' height='auto' src=\"https://simplemodern.s3.us-east-2.amazonaws.com/product-quiz/" + productArr[num].SKU + ".jpg\">")
+  $("#img-container").append("<img id ='prodImage' height='100%' src=\"https://simplemodern.s3.us-east-2.amazonaws.com/product-quiz/" + productArr[num].SKU + ".jpg\">")
   var newImage = document.getElementById("prodImage");
   newImage.onload = function(){
   }

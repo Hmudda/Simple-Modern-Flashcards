@@ -27,14 +27,21 @@
       </div>
     </div>
 
-    <div id="imageBorder"></div>
-    <div id="img-container">
+
+
+  <div id="startButtonDiv">
+      <button type="button" id="start" class="buttonClass" onclick="startGame();startTimer()" value="run external javascript">Start</button>
     </div>
 
-
-    <div id="theForm" class="hidden">
-      <div id="scoreSubtraction">
-        <p id="scoreSubtractionText"></p>
+    <div id="quizContent">
+      <div id="img-container"> </div>
+      
+      
+      
+      
+      <div id="theForm" class="hidden">
+        <div id="scoreSubtraction">
+          <p id="scoreSubtractionText"></p>
         </p>
       </div>
       <form id='enterNameForm'><label id="labelForName" for='fname'>Initials:</label><br>
@@ -42,23 +49,23 @@
         <button id='submitButton' type='button' onclick="enterName()">Enter</button>
       </form>
     </div>
-
+    
     <div id="questionHeader"></div>
-
+    
     <div id="question-container">
-
+      
     </div>
-    <button type="button" id="skip" class="hidden" onclick="doQuestionNoPoints()"
-      value="run external javascript">Skip</button>
-    <button type="button" id="start" class="buttonClass" onclick="startGame();startTimer()" value="run external javascript">Start</button>
 
   </div>
-
+  
+    
+  </div>
+  
   <div class="wrapper">
-
+    
   </div>
-
-
+  
+  
 </body>
 <script type="text/javascript" src="scripts.js"></script>
 
