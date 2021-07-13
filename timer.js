@@ -2,7 +2,7 @@
 
 var isWaiting = false;
 var isRunning = false;
-var seconds = 60;
+var seconds = 6;
 var countdownTimer;
 var finalCountdown = true;
 var scoreArrTimer = [];
@@ -158,7 +158,8 @@ function GameTimer() {
 
 
     var finalScore = points - wrong;
-    document.getElementById('scoreSubtractionText').innerHTML = "Total Score: " + finalScore;
+    document.getElementById('scoreSubtractionText').innerHTML = "Total Scores: " + finalScore;
+    document.getElementById('initialsText').innerHTML = "Initials ";
     setTheUserScore(finalScore);
 
 
