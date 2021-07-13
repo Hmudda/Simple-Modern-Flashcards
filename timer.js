@@ -158,7 +158,7 @@ function GameTimer() {
 
 
     var finalScore = points - wrong;
-    document.getElementById('scoreSubtractionText').innerHTML = "Total Scores: " + finalScore;
+    document.getElementById('scoreSubtractionText').innerHTML = "Total Score: " + finalScore;
     document.getElementById('initialsText').innerHTML = "Initials ";
     setTheUserScore(finalScore);
 
