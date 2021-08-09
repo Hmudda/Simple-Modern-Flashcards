@@ -4,6 +4,13 @@
 
 
 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+TO PLAY WITHOUT CLONING CLICK ME!!!!!!
+https://hmudda.github.io/Simple-Modern-Flashcards/
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
 
 HOW TO USE
 1. Clone project
