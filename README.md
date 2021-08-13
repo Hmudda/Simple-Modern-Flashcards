@@ -1,22 +1,14 @@
-/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
-				SIMPLE MODERN PRODUCT QUIZ
-/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+
+<h1>SIMPLE MODERN PRODUCT QUIZ</h1>
 
 
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-TO PLAY WITHOUT CLONING CLICK ME!!!!!!
-https://hmudda.github.io/Simple-Modern-Flashcards/
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+TO PLAY WITHOUT CLONING CLICK ME!!!!!! https://hmudda.github.io/Simple-Modern-Flashcards/
 
 
-![ScreenShot](images/Laptop.png)
 
-<img src="images/Laptop.png" />
+<img src="images/Laptop.png" width="500px" />
 
-![ScreenShot](images/Laptop.png)
 
 
 
