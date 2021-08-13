@@ -7,7 +7,7 @@ TO PLAY WITHOUT CLONING CLICK ME!!!!!! https://hmudda.github.io/Simple-Modern-Fl
 
 
 
-<img src="images/Laptop.png" width="500px" />
+<img src="images/Laptop_and_Iphone.png" width="500px" />
 
 
 
