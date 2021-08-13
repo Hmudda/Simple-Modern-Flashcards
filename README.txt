@@ -9,6 +9,7 @@ TO PLAY WITHOUT CLONING CLICK ME!!!!!!
 https://hmudda.github.io/Simple-Modern-Flashcards/
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+![Alt text](/images/Laptop.png?raw=true "Laptop")
 
 
 
